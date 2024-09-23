@@ -40,6 +40,10 @@
     color: white;
     text-align: center;
   }
+
+  .hero-content h1 {
+    margin-bottom: 40px;
+  }
   
   .header, .hero {
     background-image: url(images/Object.png); /* Same image for both sections */
@@ -73,16 +77,36 @@ h1 {
 }
 
 .btn {
+    padding: 15px 30px;
+    font-size: 14px;
     background-color: #C271FF;
-    border: #C271FF;
-    padding: 10px 30px;
-    text-align: center;
-    font-size: 12px;
-    display: inline-block;
-    border-radius: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #5a3377;
+}
+
+.hero-images {
+    display: flex;
+}
+.hero-images img {
+    width: 90px;
+}
+
+
+
 /* Body */
+.text-popular {
+    color: #C271FF;
+}
+
+.single-quote {
+    font-family: 'Source Sans Pro';
+}
 
 .faq-section {
     max-width: 1200px;
@@ -124,7 +148,16 @@ h1 {
     font-family: 'Source Sans Pro';
     font-size: 16px;
   }
-  
+
+.quote-section {
+    background-color: #C271FF;
+    font-family: 'Source Sans Pro';
+    color: #fff;
+}
+
+.quote-section h3 {
+    font-weight: 700;
+}
 /* Membership Section */
 .free {
     color: #C271FF;
@@ -193,7 +226,7 @@ h1 {
   }
   
   .register-btn-container button:hover {
-    background-color: #0056b3;
+    background-color: #5a3377;
   }
   
   @media (max-width: 768px) {
@@ -213,8 +246,8 @@ h1 {
   
   .register-btn-container button {
     padding: 15px 30px;
-    font-size: 1.2rem;
-    background-color: #007BFF;
+    font-size: 14px;
+    background-color: #C271FF;
     color: white;
     border: none;
     border-radius: 10px;
@@ -237,6 +270,7 @@ h1 {
 
 .icons {
   margin: 0 90px;
+  color: #fff;
 }
 
 .footer-end {
