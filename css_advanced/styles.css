@@ -1,1 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    position: relative;
+    height: 100px; /* Adjust header height as needed */
+  }
 
+  .container {
+    display: flex;
+    justify-content: right; /* Pushes logo to the left and nav to the right */
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh; /* Full screen height for the hero section */
+    background-image: url(images/Object.png); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .header, .hero {
+    background-image: url(images/Object.png); /* Same image for both sections */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Makes the background image fixed on scroll */
+  }
+  
+  nav {
+    padding: 20px;
+    color: white;
+  }
+
+.header img {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.sub-heading {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 40px;
+    padding-left: 40px;
+}
+
+.btn {
+    background-color: #C271FF;
+    border: #C271FF;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+/* Body */
+
+.faq-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.faq-column {
+    flex: 1;
+}
+
+.faq-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.faq-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+  }
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    color: #071629;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+  }
+  
+/* Membership Section */
+.free {
+    color: #C271FF;
+}
+.membership-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    background-color: #071629;
+  }
+  
+  .membership-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+  }
+  
+  .membership-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+  .membership-item {
+    flex: 1;
+    min-width: 250px; /* Ensures items don’t shrink too much */
+    text-align: center;
+  }
+  
+  .membership-item img {
+    width: 40px;
+    height: auto;
+    max-width: 200px; /* Set a max-width for the images */
+    margin-bottom: 20px;
+  }
+  
+  .membership-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .membership-item p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .register-btn-container {
+    margin-top: 40px;
+  }
+  
+  .register-btn-container button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-btn-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .membership-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .membership-item {
+      max-width: 300px; /* Ensures items don’t get too wide on smaller screens */
+    }
+  }
+
+  .register-btn-container {
+    margin-top: 40px;
+  }
+  
+  .register-btn-container button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+/* Footer */
+.footer {
+    background-color: #071629;
+    padding: 20px;
+    color: white;
+    height: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+  margin: 0 90px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+}
