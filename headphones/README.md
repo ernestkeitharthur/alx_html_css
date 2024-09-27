@@ -17,7 +17,7 @@ This is a class project that showcases a simple headphone product. The website p
 
 ## Getting Started
 
-1. Open the `index.html` file in your browser to view the website.
+1. Open the files with `.html` extensions in your browser to view the different aspects of the project.
 
 ## License
 
