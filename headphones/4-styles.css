@@ -1,0 +1,390 @@
+/* Variables */
+:root {
+    --white: #FFF;
+    --orange: #FF6565;
+    --ash: #CACECB;
+    --font: 'Source Sans Pro';
+    --footer_background_color: #071629;
+}
+
+/* Navigation */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links img {
+    width: 250px;
+    padding: 20px 80px;
+}
+
+.nav_links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.nav_links li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.nav_links a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    margin-right: 10px;
+}
+
+
+/* Body */
+.hero {
+    background-image: url(images/headphones_hero_1.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--white);
+}
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 230px;
+}
+
+.sub-heading {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sub-heading p {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    padding: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.cta {
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 40px;
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.cta:hover {
+    opacity: 0.9;
+}
+
+.sub-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-paragraph p {
+    display: flex;
+    text-align: center;
+    padding: 150px;
+    color: var(--white);
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    padding: 80px 400px;
+    line-height: normal;
+}
+
+/* What We Do */
+.what-we-do {
+    width: 100vw;
+    height: 100vh;
+}
+
+.s2-heading h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 60px 180px;
+}
+
+.s2-paragraph {
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.s2-paragraph p {
+    padding: 40px 300px;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 60px 180px;
+}
+
+.container p {
+    color: black;
+}
+
+.sound, .video, .music, .ear {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+}
+
+.video img, .music img, .ear img {
+    width: 60px;
+}
+
+.sound h4, .video h4, .music h4, .ear h4 {
+    padding: 10px 0px;
+}
+
+.sound p, .video p, .music p, .ear p {
+    padding: 10px 30px;
+}
+
+/* Our Results */
+.our-results {
+    background-image: url(images/headphones_hero_2.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.s3-heading {
+    font-family: 'Source Sans Pro';
+    color: var(--white);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 120px;
+}
+
+.s3-paragraph p {
+    font-family: 'Source Sans Pro';
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    padding: 60px 280px;
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 180px;
+    text-align: center;
+}
+
+.results-container h4, p {
+    font-family: 'Source Sans Pro';
+    color: var(--white);
+}
+
+.results-container h4 {
+    font-size: 20px;
+}
+
+.results-container p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.results-container img {
+    width: 120px;
+    display: block;
+}
+
+.results-item {
+    position: relative;
+    display: inline-block;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.results-item {
+    padding: 30px;
+}
+
+/* Contact Form */
+
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-container form {
+    width: 670px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    flex-wrap: wrap;
+    font-family: var(--font);
+  }
+  .contact-container form h1 {
+    color: black;
+    font-weight: 700;
+    line-height: 2;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 30px;
+  }
+  .contact-container form input {
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid var(--ash);
+    color: black;
+  }
+  .contact-container form input::placeholder {
+    color: var(--ash)
+  }
+  .contact-container form #lastName,
+  .contact-container form #mobile {
+    margin-left: 20px;
+  }
+  .contact-container form h4 {
+    color: var(--ash);
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+  }
+  .contact-container form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 620px;
+    max-width: 620px;
+  }
+  .contact-container form h4 {
+    font-size: 20px;
+  }
+  .contact-container form #button {
+    border: none;
+    background: var(--orange);
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--white);
+    width: 250px;
+    height: 60px;
+    padding: 0;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+  
+  .contact-container form #button:hover{
+      background: #000;
+      color: #fff;
+      transition: .5s ease-in-out;
+  }
+  
+  /* Footer */
+.footer {
+    background-color: var(--footer_background_color);
+}
+
+.footer_logo {
+    width: 250px;
+    padding: 60px 150px;
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 150px;
+}
+
+.social_links li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright p {
+    color: #535353;
+}
